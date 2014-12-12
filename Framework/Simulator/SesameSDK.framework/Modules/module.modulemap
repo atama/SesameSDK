@@ -1,0 +1,6 @@
+framework module SesameSDK {
+  umbrella header "SesameSDK.h"
+
+  export *
+  module * { export * }
+}
