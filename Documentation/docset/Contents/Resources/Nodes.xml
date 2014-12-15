@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+    <TOC>
+        <Node type="folder">
+            <Name>SesameSDK</Name>
+            <Path>index.html</Path>
+			<Subnodes>
+                
+				
+				<Node type="folder">
+					<Name>Classes</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="1"/>
+						<NodeRef refid="2"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+                
+                
+				<Node>
+					<Name>Constants</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="3"/>
+						<NodeRef refid="4"/>
+						<NodeRef refid="5"/>
+						
+					</Subnodes>
+				</Node>
+				
+                
+                <Node>
+                    <Name>Blocks</Name>
+                    <Path>index.html</Path>
+                    <Subnodes>
+                        <NodeRef refid="6"/>
+                        <NodeRef refid="7"/>
+                        <NodeRef refid="8"/>
+                        <NodeRef refid="9"/>
+                        
+                    </Subnodes>
+                </Node>
+                
+			</Subnodes>
+        </Node>
+    </TOC>
+	<Library>
+		
+		<Node id="1" type="file" documentType="reference">
+            <Name>ATASesame</Name>
+            <Path>Classes/ATASesame.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ATASesame.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ATASesame.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/ATASesame.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/ATASesame.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="2" type="file" documentType="reference">
+            <Name>ATASesameManager</Name>
+            <Path>Classes/ATASesameManager.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/ATASesameManager.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/ATASesameManager.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ATASesameManager.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/ATASesameManager.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		
+		
+        
+        <Node id="3" type="file" documentType="reference">
+            <Name>ATABroadcastPower</Name>
+            <Path>Constants/ATABroadcastPower.html</Path>
+            
+        </Node>
+		<Node id="4" type="file" documentType="reference">
+            <Name>ATAConnectionState</Name>
+            <Path>Constants/ATAConnectionState.html</Path>
+            
+        </Node>
+		<Node id="5" type="file" documentType="reference">
+            <Name>ATASignalStrength</Name>
+            <Path>Constants/ATASignalStrength.html</Path>
+            
+        </Node>
+		
+        <Node id="6" type="file" documentType="reference">
+            <Name>ATAChallengeCallback</Name>
+            <Path>Blocks/ATAChallengeCallback.html</Path>
+            
+        </Node>
+        <Node id="7" type="file" documentType="reference">
+            <Name>ATAConnectionStateCallback</Name>
+            <Path>Blocks/ATAConnectionStateCallback.html</Path>
+            
+        </Node>
+        <Node id="8" type="file" documentType="reference">
+            <Name>ATASesameScanningCallback</Name>
+            <Path>Blocks/ATASesameScanningCallback.html</Path>
+            
+        </Node>
+        <Node id="9" type="file" documentType="reference">
+            <Name>ATASignalStrengthCallback</Name>
+            <Path>Blocks/ATASignalStrengthCallback.html</Path>
+            
+        </Node>
+        
+	</Library>
+</DocSetNodes>

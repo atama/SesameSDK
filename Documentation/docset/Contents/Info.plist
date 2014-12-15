@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleIdentifier</key>
+	<string>io.atama.SesameSDK</string>
+	<key>CFBundleName</key>
+	<string>SesameSDK Documentation</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	
+	
+	
+	<key>DocSetFallbackURL</key>
+	<string>http://atama.io/Atama</string>
+	<key>DocSetFeedName</key>
+	<string>SesameSDK Documentation</string>
+	<key>DocSetFeedURL</key>
+	<string>http://atama.io/Atama/Atama.atom</string>
+	<key>DocSetMinimumXcodeVersion</key>
+	<string>3.0</string>
+	<key>DocSetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>DashDocSetFamily</key>
+	<string>appledoc</string>
+	<key>DocSetPublisherIdentifier</key>
+	<string>io.atama.documentation</string>
+	<key>DocSetPublisherName</key>
+	<string>Atama</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2014 Atama. All rights reserved.</string>
+</dict>
+</plist>

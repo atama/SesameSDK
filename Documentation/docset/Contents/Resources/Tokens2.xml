@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ATASesameManager.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ATASesameManager</TokenIdentifier>
+			<Abstract type="html">The Sesame Manager is the main class of the Sesame SDK. It allows you to discover and connect to Sesame devices. It also handles the saving of Sesame devices for later use.</Abstract>
+			<DeclaredIn>ATASesameManager.h</DeclaredIn>
+            
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/ATASesameManager/sharedInstance</TokenIdentifier>
+			<Abstract type="html">Main initialization / access to the Sesame SDK</Abstract>
+			<DeclaredIn>ATASesameManager.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)sharedInstance</Declaration>
+			
+			<ReturnValue><Abstract type="html">a valid instance of the Sesame Manager class</Abstract></ReturnValue>
+			<Anchor>//api/name/sharedInstance</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ATASesameManager/scanForSesameWithTimeout:andCallback:</TokenIdentifier>
+			<Abstract type="html">Allows you to scan for Sesame devices for a given period of time</Abstract>
+			<DeclaredIn>ATASesameManager.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)scanForSesameWithTimeout:(NSInteger)timeout andCallback:(ATASesameScanningCallback)callback</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>timeout</Name>
+					<Abstract type="html">Time to scan (in seconds)</Abstract>
+				</Parameter><Parameter>
+					<Name>callback</Name>
+					<Abstract type="html">The block to call after scanning has finished. Of type ATASesameScanningCallback</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the scan started successfully, NO means the scan couldn&apos;t be started, normally due to Bluetooth being off.</Abstract></ReturnValue>
+			<Anchor>//api/name/scanForSesameWithTimeout:andCallback:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ATASesameManager/connectDevice:withAutoReconnect:</TokenIdentifier>
+			<Abstract type="html">Connects to a Sesame device so you can interact with it. You can also choose to &quot;link&quot; the Sesame to auto reconnect to it</Abstract>
+			<DeclaredIn>ATASesameManager.h</DeclaredIn>
+			
+			<Declaration>- (void)connectDevice:(ATASesame *)sesame withAutoReconnect:(BOOL)autoReconnect</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sesame</Name>
+					<Abstract type="html">The ATASesame to connect to</Abstract>
+				</Parameter><Parameter>
+					<Name>autoReconnect</Name>
+					<Abstract type="html">whether to auto reconnect or not</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/connectDevice:withAutoReconnect:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ATASesameManager/disconnectDevice:shouldUnpair:</TokenIdentifier>
+			<Abstract type="html">Disconnect from a Sesame fob, optionally force it to remove its pairing data before disconnecting</Abstract>
+			<DeclaredIn>ATASesameManager.h</DeclaredIn>
+			
+			<Declaration>- (void)disconnectDevice:(ATASesame *)sesame shouldUnpair:(BOOL)shouldUnpair</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sesame</Name>
+					<Abstract type="html">The ATASesame to disconnect from</Abstract>
+				</Parameter><Parameter>
+					<Name>shouldUnpair</Name>
+					<Abstract type="html">Forces the Sesame to remove its pairing data</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/disconnectDevice:shouldUnpair:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ATASesameManager/saveSesame:</TokenIdentifier>
+			<Abstract type="html">This &quot;bonds&quot; a Sesame, allowing it to be retrived at any point in the future using savedSesame, this will persist accross app launches</Abstract>
+			<DeclaredIn>ATASesameManager.h</DeclaredIn>
+			
+			<Declaration>- (void)saveSesame:(ATASesame *)sesame</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>sesame</Name>
+					<Abstract type="html">The ATASesame to &quot;bond&quot; with, if nil then the previous bond is broken</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/saveSesame:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ATASesameManager/savedSesame</TokenIdentifier>
+			<Abstract type="html">Allows you to retrieve the bonded Sesame device. This will load the ATASesame from disk if required. If nil, then no Sesame has been set up</Abstract>
+			<DeclaredIn>ATASesameManager.h</DeclaredIn>
+			
+			<Declaration>- (ATASesame *)savedSesame</Declaration>
+			
+			<ReturnValue><Abstract type="html">the bonded ATASesame or nil if none have been set up</Abstract></ReturnValue>
+			<Anchor>//api/name/savedSesame</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ATASesameManager/bluetoothOff</TokenIdentifier>
+			<Abstract type="html">Check whether bluetooth is turned off</Abstract>
+			<DeclaredIn>ATASesameManager.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)bluetoothOff</Declaration>
+			
+			<ReturnValue><Abstract type="html">YES if bluetooth is turned off</Abstract></ReturnValue>
+			<Anchor>//api/name/bluetoothOff</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

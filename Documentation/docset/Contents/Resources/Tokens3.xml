@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/ATABroadcastPower.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/ATABroadcastPower</TokenIdentifier>
+			<Abstract type="html">The broadcast power of the ATASesame This affects the range at which a connection will be successful and stay active</Abstract>
+			<DeclaredIn>ATASesameEnums.h</DeclaredIn>
+            
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ATABroadcastPowerUnknown</TokenIdentifier>
+            <Abstract type="html">Broadcast power unknown, it will be read after connection
+     </Abstract>
+            <Declaration>ATABroadcastPowerUnknown</Declaration>
+            
+            <DeclaredIn>ATASesameEnums.h</DeclaredIn>
+            
+            <NodeRef refid="3"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ATABroadcastPowerLow</TokenIdentifier>
+            <Abstract type="html">Low power. This will give the shortest bluetooth range
+     </Abstract>
+            <Declaration>ATABroadcastPowerLow</Declaration>
+            
+            <DeclaredIn>ATASesameEnums.h</DeclaredIn>
+            
+            <NodeRef refid="3"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ATABroadcastPowerAverage</TokenIdentifier>
+            <Abstract type="html">Average power. This will give a medium range
+     </Abstract>
+            <Declaration>ATABroadcastPowerAverage</Declaration>
+            
+            <DeclaredIn>ATASesameEnums.h</DeclaredIn>
+            
+            <NodeRef refid="3"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ATABroadcastPowerHigh</TokenIdentifier>
+            <Abstract type="html">High Power. This will give the largest range
+     </Abstract>
+            <Declaration>ATABroadcastPowerHigh</Declaration>
+            
+            <DeclaredIn>ATASesameEnums.h</DeclaredIn>
+            
+            <NodeRef refid="3"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

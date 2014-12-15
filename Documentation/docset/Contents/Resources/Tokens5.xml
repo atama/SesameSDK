@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/ATASignalStrength.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/ATASignalStrength</TokenIdentifier>
+			<Abstract type="html">A representation of the signal strength when connected to the ATASesame</Abstract>
+			<DeclaredIn>ATASesameEnums.h</DeclaredIn>
+            
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ATASignalStrengthUnknown</TokenIdentifier>
+            <Abstract type="html">The signal strength has not been established yet. You are probably not connected
+     </Abstract>
+            <Declaration>ATASignalStrengthUnknown</Declaration>
+            
+            <DeclaredIn>ATASesameEnums.h</DeclaredIn>
+            
+            <NodeRef refid="5"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ATASignalStrengthWeak</TokenIdentifier>
+            <Abstract type="html">Weak signal strength (the lowest)
+     </Abstract>
+            <Declaration>ATASignalStrengthWeak</Declaration>
+            
+            <DeclaredIn>ATASesameEnums.h</DeclaredIn>
+            
+            <NodeRef refid="5"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ATASignalStrengthAverage</TokenIdentifier>
+            <Abstract type="html">Average signal strength
+     </Abstract>
+            <Declaration>ATASignalStrengthAverage</Declaration>
+            
+            <DeclaredIn>ATASesameEnums.h</DeclaredIn>
+            
+            <NodeRef refid="5"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ATASignalStrengthStrong</TokenIdentifier>
+            <Abstract type="html">Strong signal strength
+     </Abstract>
+            <Declaration>ATASignalStrengthStrong</Declaration>
+            
+            <DeclaredIn>ATASesameEnums.h</DeclaredIn>
+            
+            <NodeRef refid="5"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ATASignalStrengthVeryStrong</TokenIdentifier>
+            <Abstract type="html">Very strong signal strength (the highest)
+     </Abstract>
+            <Declaration>ATASignalStrengthVeryStrong</Declaration>
+            
+            <DeclaredIn>ATASesameEnums.h</DeclaredIn>
+            
+            <NodeRef refid="5"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

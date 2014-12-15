@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/ATAConnectionState.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/ATAConnectionState</TokenIdentifier>
+			<Abstract type="html">The bluetooth connection state of the ATASesame device</Abstract>
+			<DeclaredIn>ATASesameEnums.h</DeclaredIn>
+            
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ATAConnectionStateUnknown</TokenIdentifier>
+            <Abstract type="html">The connection state is unknown, probably becuase it has just been loaded from a file
+     </Abstract>
+            <Declaration>ATAConnectionStateUnknown</Declaration>
+            
+            <DeclaredIn>ATASesameEnums.h</DeclaredIn>
+            
+            <NodeRef refid="4"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ATAConnectionStateDisconnected</TokenIdentifier>
+            <Abstract type="html">The ATASesame is currently disconnected
+     </Abstract>
+            <Declaration>ATAConnectionStateDisconnected</Declaration>
+            
+            <DeclaredIn>ATASesameEnums.h</DeclaredIn>
+            
+            <NodeRef refid="4"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ATAConnectionStateConnecting</TokenIdentifier>
+            <Abstract type="html">The ATASesame is in the process of connecting. This means a connection request to the sesame currently exists
+     </Abstract>
+            <Declaration>ATAConnectionStateConnecting</Declaration>
+            
+            <DeclaredIn>ATASesameEnums.h</DeclaredIn>
+            
+            <NodeRef refid="4"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ATAConnectionStateConnectedButNotReady</TokenIdentifier>
+            <Abstract type="html">The ATASesame is connected, but not yet ready to interact with. It will transition to ATAConnectionStateConnectedAndReady shortly
+     </Abstract>
+            <Declaration>ATAConnectionStateConnectedButNotReady</Declaration>
+            
+            <DeclaredIn>ATASesameEnums.h</DeclaredIn>
+            
+            <NodeRef refid="4"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ATAConnectionStateConnectedAndReady</TokenIdentifier>
+            <Abstract type="html">The ATASesame is connected and ready to be interacted with.
+     </Abstract>
+            <Declaration>ATAConnectionStateConnectedAndReady</Declaration>
+            
+            <DeclaredIn>ATASesameEnums.h</DeclaredIn>
+            
+            <NodeRef refid="4"/>
+        </Token>
+        
+        
+	</File>
+</Tokens>

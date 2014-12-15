@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ATASesame.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ATASesame</TokenIdentifier>
+			<Abstract type="html">This is the representation of a Sesame hardware device. The properties directly represent the state of the hardware and the methods directly communicate with the hardware. Although it conforms to NSCoding, it is recommended to let the SDK handle saving for you using the [ATASesameManager saveSesame:] method</Abstract>
+			<DeclaredIn>ATASesame.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ATASesame/setConnectionState:</TokenIdentifier>
+			<Abstract type="html">The current connection state of the Sesame device. One of ATAConnectionState</Abstract>
+			<DeclaredIn>ATASesame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) ATAConnectionState connectionState</Declaration>
+			
+			
+			<Anchor>//api/name/connectionState</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ATASesame/connectionState</TokenIdentifier>
+			<Abstract type="html">The current connection state of the Sesame device. One of ATAConnectionState</Abstract>
+			<DeclaredIn>ATASesame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) ATAConnectionState connectionState</Declaration>
+			
+			
+			<Anchor>//api/name/connectionState</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ATASesame/connectionState</TokenIdentifier>
+			<Abstract type="html">The current connection state of the Sesame device. One of ATAConnectionState</Abstract>
+			<DeclaredIn>ATASesame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) ATAConnectionState connectionState</Declaration>
+			
+			
+			<Anchor>//api/name/connectionState</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ATASesame/registerConnectionStateHandler:</TokenIdentifier>
+			<Abstract type="html">Allows you to register a block that gets called every time the connection state of the Sesame changes</Abstract>
+			<DeclaredIn>ATASesame.h</DeclaredIn>
+			
+			<Declaration>- (void)registerConnectionStateHandler:(ATAConnectionStateCallback)callback</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>callback</Name>
+					<Abstract type="html">the block to be called. Of type ATAConnectionStateCallback</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/registerConnectionStateHandler:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ATASesame/setSignalStrength:</TokenIdentifier>
+			<Abstract type="html">The current signal strength of the Sesame device (Unknown if not connected)</Abstract>
+			<DeclaredIn>ATASesame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) ATASignalStrength signalStrength</Declaration>
+			
+			
+			<Anchor>//api/name/signalStrength</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ATASesame/signalStrength</TokenIdentifier>
+			<Abstract type="html">The current signal strength of the Sesame device (Unknown if not connected)</Abstract>
+			<DeclaredIn>ATASesame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) ATASignalStrength signalStrength</Declaration>
+			
+			
+			<Anchor>//api/name/signalStrength</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ATASesame/signalStrength</TokenIdentifier>
+			<Abstract type="html">The current signal strength of the Sesame device (Unknown if not connected)</Abstract>
+			<DeclaredIn>ATASesame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) ATASignalStrength signalStrength</Declaration>
+			
+			
+			<Anchor>//api/name/signalStrength</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ATASesame/registerSignalStrengthHandler:</TokenIdentifier>
+			<Abstract type="html">Allows you to register a block that is called whenever the Signal Strength state changes</Abstract>
+			<DeclaredIn>ATASesame.h</DeclaredIn>
+			
+			<Declaration>- (void)registerSignalStrengthHandler:(ATASignalStrengthCallback)callback</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>callback</Name>
+					<Abstract type="html">the block to be called. Of type ATASignalStrengthCallback</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/registerSignalStrengthHandler:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ATASesame/setBroadcastPower:</TokenIdentifier>
+			<Abstract type="html">Allows you to set the broadcast power of the Sesame device to any value from ATABroadcastPower</Abstract>
+			<DeclaredIn>ATASesame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) ATABroadcastPower broadcastPower</Declaration>
+			
+			
+			<Anchor>//api/name/broadcastPower</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ATASesame/broadcastPower</TokenIdentifier>
+			<Abstract type="html">Allows you to set the broadcast power of the Sesame device to any value from ATABroadcastPower</Abstract>
+			<DeclaredIn>ATASesame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) ATABroadcastPower broadcastPower</Declaration>
+			
+			
+			<Anchor>//api/name/broadcastPower</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ATASesame/broadcastPower</TokenIdentifier>
+			<Abstract type="html">Allows you to set the broadcast power of the Sesame device to any value from ATABroadcastPower</Abstract>
+			<DeclaredIn>ATASesame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) ATABroadcastPower broadcastPower</Declaration>
+			
+			
+			<Anchor>//api/name/broadcastPower</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ATASesame/setIdentifier:</TokenIdentifier>
+			<Abstract type="html">The unique identifier of the Sesame unit. If nil it may not have been retreieved yet, Cleared on disconnection</Abstract>
+			<DeclaredIn>ATASesame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ATASesame/identifier</TokenIdentifier>
+			<Abstract type="html">The unique identifier of the Sesame unit. If nil it may not have been retreieved yet, Cleared on disconnection</Abstract>
+			<DeclaredIn>ATASesame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ATASesame/identifier</TokenIdentifier>
+			<Abstract type="html">The unique identifier of the Sesame unit. If nil it may not have been retreieved yet, Cleared on disconnection</Abstract>
+			<DeclaredIn>ATASesame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ATASesame/giveChallengeKey:</TokenIdentifier>
+			<Abstract type="html">Allows you to give the Sesame a challenge key to test against in the future</Abstract>
+			<DeclaredIn>ATASesame.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)giveChallengeKey:(NSData *)key</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>key</Name>
+					<Abstract type="html">The key to set on the Fob. It should be 16 bytes of random data preferably generated with SecRandomCopyBytes or similar</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if successul. NO on failure</Abstract></ReturnValue>
+			<Anchor>//api/name/giveChallengeKey:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ATASesame/sendChallenge:withResponse:</TokenIdentifier>
+			<Abstract type="html">Allows you to challenge the Sesame unit to confirm its identity</Abstract>
+			<DeclaredIn>ATASesame.h</DeclaredIn>
+			
+			<Declaration>- (void)sendChallenge:(NSData *)challenge withResponse:(ATAChallengeCallback)callback</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>challenge</Name>
+					<Abstract type="html">The data to challenge with</Abstract>
+				</Parameter><Parameter>
+					<Name>callback</Name>
+					<Abstract type="html">The block to call when the challenge has been completed. Of type ATAChallengeCallback</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/sendChallenge:withResponse:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ATASesame/activatePairing</TokenIdentifier>
+			<Abstract type="html">This is a no going back method of enabling bluetooth pairing for this Sesame device, this cannot be deactivated and every device that connects to this Sesame in future will have to pair to it.</Abstract>
+			<DeclaredIn>ATASesame.h</DeclaredIn>
+			
+			<Declaration>- (void)activatePairing</Declaration>
+			
+			
+			<Anchor>//api/name/activatePairing</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>
